@@ -31,9 +31,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/player/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/player/sunbird-pdf-player.js"
+            ]
           },
           "configurations": {
             "production": {
