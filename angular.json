@@ -28,14 +28,20 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*.*",
+                "input": "./node_modules/@project-sunbird/sunbird-pdf-player-web-component/assets",
+                "output": "/assets/"
+              }
             ],
             "styles": [
               "src/styles.scss",
-              "src/assets/player/styles.css"
+              "node_modules/@project-sunbird/sunbird-pdf-player-web-component/styles.css"
             ],
             "scripts": [
-              "src/assets/player/sunbird-pdf-player.js"
+              "node_modules/reflect-metadata/Reflect.js",
+              "node_modules/@project-sunbird/sunbird-pdf-player-web-component/sunbird-pdf-player.js"
             ]
           },
           "configurations": {
